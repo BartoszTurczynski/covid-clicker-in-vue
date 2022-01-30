@@ -5,7 +5,8 @@
             <li>O NAS</li>
             <li>POBIERZ</li>
         </ul>
-        <img src="../assets/logo.svg" alt="covid">
+        <img class="moon" src="../assets/moon-solid.svg" alt="moon">
+        <img class="covid" src="../assets/logo.svg" alt="covid">
     </div>
 </template>
 <script>
@@ -29,15 +30,24 @@ export default {
 ul{
     
     list-style: none;
-    
+    flex-direction: row;
 }
 ul li{
     cursor: pointer;
     color: black;
+    display: inline-block;
+    padding: 4vw;
+    font-weight: 600;
 }
-img{
-    height: 100px;
-    background-color: white;
+.covid {
+    height: 4em;
+    background-color: black;
     border-radius: 50%;
+}
+.moon{
+    height: 3.5em;
+    outline: solid black;
+    border-radius: 50%;
+    outline-offset: 0.5em;
 }
 </style>
