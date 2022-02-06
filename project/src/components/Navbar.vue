@@ -36,8 +36,9 @@ ul li{
     cursor: pointer;
     color: black;
     display: inline-block;
-    padding: 4vw;
+    margin: 4vw;
     font-weight: 600;
+    font-size: 1.5em;
 }
 .covid {
     height: 4em;
